@@ -1,0 +1,35 @@
+kdm-theme-kanotix-penguins (1.3.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * fix KanotixPenguins.xml and Kanotix64Penguins.xml upon upstream request.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 15 Sep 2006 00:38:20 +0200
+
+kdm-theme-kanotix-penguins (1.3) unstable; urgency=low
+
+  * Cleanup of xml indenting.
+  * Indent hostname by 5% on X axis.
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Fri, 11 Aug 2006 00:08:53 +1000
+
+kdm-theme-kanotix-penguins (1.2) unstable; urgency=low
+
+  * Updated kdm themes with login box fixes.
+  * Added new KanotixPenguins3 theme.
+  * Fix typo's in debian/control.
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Sun,  6 Aug 2006 17:39:51 +1000
+
+kdm-theme-kanotix-penguins (1.1) unstable; urgency=low
+
+  * New kdm theme with user select box.
+  * Provide previous theme as a variant.
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Thu,  3 Aug 2006 02:11:12 +1000
+
+kdm-theme-kanotix-penguins (1.0) unstable; urgency=low
+
+  * Initial release
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Tue,  1 Aug 2006 20:14:54 +1000
+

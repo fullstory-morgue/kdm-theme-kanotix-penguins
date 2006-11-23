@@ -1,0 +1,8 @@
+[GdmGreeterTheme]
+Author=Cathbard
+Copyright=(c) 2006, GPL
+Description=KDE KanotixPenguins Theme
+Encoding=UTF-8
+Greeter=KanotixPenguins.xml
+Name=KanotixPenguins
+Screenshot=screenshot.jpg

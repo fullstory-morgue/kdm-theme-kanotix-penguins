@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+install/kdm-theme-kanotix-penguins::
+	for f in *.jpg *.png *.desktop *.xml; do \
+		install -m 0644 KanotixPenguins/$$f \
+			debian/kdm-theme-kanotix-penguins/usr/share/apps/kdm/themes/KanotixPenguins/ ;\
+	done
+
+install/kdm-theme-kanotix64-penguins::
+	for f in *.jpg *.png *.desktop *.xml; do \
+		install -m 0644 Kanotix64Penguins/$$f \
+			debian/kdm-theme-kanotix64-penguins/usr/share/apps/kdm/themes/Kanotix64Penguins/ ;\
+	done
+
+install/kdm-theme-kanotix-penguins2::
+	for f in *.jpg *.png *.desktop *.xml; do \
+		install -m 0644 KanotixPenguins2/$$f \
+			debian/kdm-theme-kanotix-penguins2/usr/share/apps/kdm/themes/KanotixPenguins2/ ;\
+	done
+
+install/kdm-theme-kanotix64-penguins2::
+	for f in *.jpg *.png *.desktop *.xml; do \
+		install -m 0644 Kanotix64Penguins2/$$f \
+			debian/kdm-theme-kanotix64-penguins2/usr/share/apps/kdm/themes/Kanotix64Penguins2/ ;\
+	done
+
+install/kdm-theme-kanotix-penguins3::
+	for f in *.jpg *.png *.desktop *.xml; do \
+		install -m 0644 KanotixPenguins3/$$f \
+			debian/kdm-theme-kanotix-penguins3/usr/share/apps/kdm/themes/KanotixPenguins3/ ;\
+	done

@@ -1,0 +1,48 @@
+Source: kdm-theme-kanotix-penguins
+Section: kde
+Priority: optional
+Maintainer: Kel Modderman <kelrin@tpg.com.au>
+Build-Depends: cdbs, debhelper (>= 5.0.0)
+Standards-Version: 3.7.2
+
+Package: kdm-theme-kanotix-penguins
+Architecture: all
+Depends: kdm, kdmtheme
+Description: a Kanotix penguin theme for KDM
+ This package provides a Kanotix penguin theme for the KDE
+ Desktop Manager (KDM).
+
+Package: kdm-theme-kanotix64-penguins
+Architecture: all
+Depends: kdm, kdmtheme
+Description: a Kanotix64 penguin theme for KDM
+ This package provides a Kanotix64 penguin theme for the KDE
+ Desktop Manager (KDM).
+
+Package: kdm-theme-kanotix-penguins2
+Architecture: all
+Depends: kdm, kdmtheme
+Description: a Kanotix penguin theme for KDM
+ This package provides a Kanotix penguin theme for the KDE
+ Desktop Manager (KDM).
+ .
+ This variant has no user select box.
+
+Package: kdm-theme-kanotix64-penguins2
+Architecture: all
+Depends: kdm, kdmtheme
+Description: a Kanotix64 penguin theme for KDM
+ This package provides a Kanotix64 penguin theme for the KDE
+ Desktop Manager (KDM).
+ .
+ This variant has no user select box.
+
+Package: kdm-theme-kanotix-penguins3
+Architecture: all
+Depends: kdm, kdmtheme
+Description: a Kanotix penguin theme for KDM with fish
+ This package provides a Kanotix penguin theme for the KDE
+ Desktop Manager (KDM). The famous Kanotix fish is next to the
+ login dialog.
+ .
+ This variant has no user select box.
